@@ -13,4 +13,5 @@ public class Intermediary extends Agent{
 
    singleAgent agent1 = new singleAgent();
    singleHuman human1 = new singleHuman(); 
+   //este es un cambio
 }
