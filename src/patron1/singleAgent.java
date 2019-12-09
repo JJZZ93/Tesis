@@ -84,14 +84,14 @@ public class singleAgent extends Agent{
                 int distancia=Integer.parseInt(st.nextToken());
                 if (distancia<DISTANCIA_MAX)
                 {
-                    System.out.println(getLocalName()+": Vamos echando chispas!!!");
+                    //System.out.println(getLocalName()+": Vamos echando chispas!!!");
                     ACLMessage agree = request.createReply();
                     agree.setPerformative(ACLMessage.AGREE);
                     return agree;
                 }
                 else
                 {
-                    System.out.println(getLocalName()+": Información fuera del radio de accion. No se completará la tarea!!!");
+                    //System.out.println(getLocalName()+": Información fuera del radio de accion. No se completará la tarea!!!");
                     throw new RefuseException("Dato difícil de encontrar");
                 }
             }
@@ -101,15 +101,15 @@ public class singleAgent extends Agent{
         protected ACLMessage prepareResultNotification(ACLMessage request,ACLMessage response) throws FailureException
         {
             if (Math.random() > 0.2) {
-                System.out.println(getLocalName()+": Ha vuelto ha realizar la tarea.");
+                System.out.println(getLocalName()+"");
                 ACLMessage inform = request.createReply();
                 inform.setPerformative(ACLMessage.INFORM);
                 return inform;
             }
             else
             {
-                System.out.println(getLocalName()+": Ha hecho todo lo posible, lo sentimos.");
-                throw new FailureException("Han hecho todo lo posible");
+                System.out.println(getLocalName()+"");
+                throw new FailureException(" Han hecho todo lo posible ");
             }
         }
     }
