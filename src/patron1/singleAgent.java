@@ -23,6 +23,8 @@ import java.util.StringTokenizer;
 public class singleAgent extends Agent{
     public double DISTANCIA_MAX;
     
+    //cambio clases
+    
     protected void setup() {
         //Se crea un mensaje PROPOSE. Se quiere pedir permiso para salir de clase.
         ACLMessage mensaje = new ACLMessage(ACLMessage.PROPOSE);
