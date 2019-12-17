@@ -111,7 +111,7 @@ public class singleAgent extends Agent{
             else
             {
                 System.out.println(getLocalName()+"");
-                throw new FailureException(" Han hecho todo lo posible ");
+                throw new FailureException(" Ha hecho todo lo posible ");
             }
         }
     }

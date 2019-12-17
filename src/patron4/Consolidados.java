@@ -3,7 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package patron1;
+package patron4;
+
+/**
+ *
+ * @author josezamora
+ */
 import jade.core.Agent;
 import jade.BootProfileImpl;
 import jade.core.Runtime;
@@ -12,16 +17,9 @@ import jade.core.ProfileImpl;
 import jade.util.leap.Properties;
 import jade.wrapper.*;
 
-/**
- *
- * @author josezamora
- */
-
-   //este es un cambio
-
-public class Intermediary {
-
-     public static void main(String args[]) throws StaleProxyException 
+public class Consolidados {
+    
+    public static void main(String args[]) throws StaleProxyException 
      {
         Runtime rt = Runtime.instance();
 
@@ -35,8 +33,11 @@ public class Intermediary {
 
 	AgentContainer mainContainer = jade.core.Runtime.instance().createMainContainer(profile);
 
-        Object[] hum=new Object[20];
-        hum[0]="humano";
+        Object[] hum1=new Object[20];
+        hum1[0]="humano1";
+        
+        Object[] hum2=new Object[20];
+        hum2[0]="humano2";
         
         
         //Object[] ag=new Object[20];
@@ -44,13 +45,16 @@ public class Intermediary {
        Object agen[] = {"agente"};
 
 	AgentController rma = null;
+        AgentController rna = null;
         AgentController mma = null;
 
 	try {
 
-		rma = mainContainer.createNewAgent("agente", "patron1.singleAgent", hum);
+		rma = mainContainer.createNewAgent("agente", "patron4.singleAgent", hum1);
 		rma.start();
-                mma = mainContainer.createNewAgent("humano", "patron1.singleHuman", agen);
+                rna = mainContainer.createNewAgent("humano1", "patron4.singleHuman1", hum1);
+		rna.start();
+                mma = mainContainer.createNewAgent("humano2", "patron4.singleHuman2", agen);
                 mma.start();
 
 	} catch (StaleProxyException e) {
@@ -59,5 +63,4 @@ public class Intermediary {
 	}
 
      }
-
 }

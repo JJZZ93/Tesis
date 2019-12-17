@@ -119,7 +119,7 @@ public class singleHuman extends Agent{
         protected void handleInform(ACLMessage inform)
         {
             System.out.println("Agente:  " + inform.getSender().getName()
-                    + " informa que han atendido el accidente.");
+                    + " informa que han atendido su pedido.");
         }
  
         protected void handleFailure(ACLMessage fallo)
