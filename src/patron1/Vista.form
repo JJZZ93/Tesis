@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_recibirEstado" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="txt_recibirTipo" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="txt_recibirLatitud" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="txt_recibirLongitud" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="txt_recibirID" min="-2" pref="141" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane1" alignment="0" min="-2" pref="506" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="filtro_operativo" min="-2" pref="352" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="filtro_tactico" min="-2" pref="352" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="filtro_estrategico" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="txt_cargo" max="32767" attributes="0"/>
+                                                  <Component id="txt_sueldo" max="32767" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="txt_nombre" min="-2" pref="312" max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Component id="btn_estado" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txt_sueldo2" pref="160" max="32767" attributes="0"/>
+                                          <Component id="txt_comision" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="btn_conectar" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="396" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="btn_estado" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_recibirID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_recibirTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_recibirEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_recibirLatitud" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_recibirLongitud" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="202" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_nombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_cargo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sueldo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btn_conectar" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="filtro_estrategico" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="filtro_tactico" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="filtro_operativo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="68" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_sueldo2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_comision" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="30" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ESTADO DE TAREA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo desastre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Latitud"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Longitud"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_recibirID">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_recibirTipo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_recibirEstado">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_recibirLatitud">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_recibirLongitud">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="nomina">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="0" rowCount="4"/>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0"/>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="nominaMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_conectar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Conectar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_conectarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="filtro_estrategico">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="DIRECTORA DE PLANIFICACION Y DESARROLLO"/>
+            <StringItem index="1" value="DIRECTORA DE RECURSOS HUMANOS"/>
+            <StringItem index="2" value="DIRECTORA ADMINISTRATIVO Y FINANCIERO"/>
+            <StringItem index="3" value="DIRECTOR DE TECNOLOGIA"/>
+            <StringItem index="4" value="DIRECTOR TECNICO"/>
+            <StringItem index="5" value="DIRECTOR DE OPERACIONES DEL 911"/>
+            <StringItem index="6" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="filtro_estrategicoItemStateChanged"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="filtro_tactico">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="ENCARGADO DE SISTEMA"/>
+            <StringItem index="1" value="ENC. DE RECEPCION EMERGENCIAS DEL 9-1-1"/>
+            <StringItem index="2" value="COORD. RECEPCION DE EMERGENCIAS"/>
+            <StringItem index="3" value="COORDINADOR RECEPCION DE EMERGENCIAS"/>
+            <StringItem index="4" value="SUPERVISOR DE RECEPCION"/>
+            <StringItem index="5" value="SUPERVISOR LINEA DE RUIDO"/>
+            <StringItem index="6" value="SUPERVISOR DESPACHO"/>
+            <StringItem index="7" value="SUPERVISOR DESPACHO DE EMERGENCIAS"/>
+            <StringItem index="8" value="SUPERVISOR DESPACHO EMERGENCIA"/>
+            <StringItem index="9" value="COORDINADOR DE ENLACE"/>
+            <StringItem index="10" value="ENCARGADO RADIOCOMUNICACION"/>
+            <StringItem index="11" value="ENC. ELECTRICO"/>
+            <StringItem index="12" value="ENCARGADO DIVISION SERVICIOS ELECTRICOS"/>
+            <StringItem index="13" value="SUPERVISION DIVISION SERVICIOS ELECTRICOS"/>
+            <StringItem index="14" value="ENC. ELECTRICO"/>
+            <StringItem index="15" value="COORDINADORA DE DESPACHO"/>
+            <StringItem index="16" value="COORDINADORA DE RELACIONES INTERNACIONALES"/>
+            <StringItem index="17" value="COORDINADORA DE DESPACHO"/>
+            <StringItem index="18" value="ENCARGADA DEPARTAMENTO JURIDICO"/>
+            <StringItem index="19" value="ENCARGADO DPTO. PLANI Y GESTION DE PROYECTOS"/>
+            <StringItem index="20" value="COORDINADORA DE CALIDAD"/>
+            <StringItem index="21" value="ENC. DPTO. DESARROLLO ORGANIZACIONAL Y GESTION CALIDAD"/>
+            <StringItem index="22" value="ENC. DPTO. DE RECLUTAMIENTO Y SELECCION"/>
+            <StringItem index="23" value="ENCARGADA DPTO. FINACIERO"/>
+            <StringItem index="24" value="ENCARGADO CONTROL Y MANT BIENES"/>
+            <StringItem index="25" value="ENCARGADO DIVISION Y TRANSPORTACION"/>
+            <StringItem index="26" value="ENC. UNIDAD DE COMPRAS"/>
+            <StringItem index="27" value="SUPERVISOR SERVICIOS GENERALES"/>
+            <StringItem index="28" value="ENC. DIVISION SERVICIOS GENERALES"/>
+            <StringItem index="29" value="ENC. DIVISION SOPORTE A USUARIOS"/>
+            <StringItem index="30" value="ADMINISTRADOR DE REDES Y SERVIDORES"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="filtro_tacticoItemStateChanged"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="filtro_operativo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="49">
+            <StringItem index="0" value="ASESORA DE COMUNICACIONES"/>
+            <StringItem index="1" value="ASISTENTE ADMINISTRATIVA"/>
+            <StringItem index="2" value="TECNICO DE PLANIFICACION"/>
+            <StringItem index="3" value="GESTOR DE PROYECTOS"/>
+            <StringItem index="4" value="MONITOR DE CALIDAD INTERNO"/>
+            <StringItem index="5" value="MONITOR DE CALIDAD"/>
+            <StringItem index="6" value="ANALISTA DESARROLLO ORGANIZACIONAL"/>
+            <StringItem index="7" value="ANALISTA DE RECURSOS HUMANOS"/>
+            <StringItem index="8" value="OFICIAL DE ENTRENAMIENTO"/>
+            <StringItem index="9" value="ANALISTA NOMINAS"/>
+            <StringItem index="10" value="CONTADORA"/>
+            <StringItem index="11" value="ANALISTA DE PRESUPUESTO"/>
+            <StringItem index="12" value="ASISTENTE ADMINISTRATIVA"/>
+            <StringItem index="13" value="ANALISTA DE CONTROL DE BIENES"/>
+            <StringItem index="14" value="TECNICO EN CONTROL DE BIENES"/>
+            <StringItem index="15" value="TECNICO DE SUMINISTRO Y ALMACEN "/>
+            <StringItem index="16" value="ANALISTA DE COMPRAS"/>
+            <StringItem index="17" value="AUXILIAR DE ALMACEN "/>
+            <StringItem index="18" value="CHOFER"/>
+            <StringItem index="19" value="CONSERJE"/>
+            <StringItem index="20" value="MANTENIMIENTO"/>
+            <StringItem index="21" value="CONSEJERO"/>
+            <StringItem index="22" value="TECNICO EN MANTENIMIENTO"/>
+            <StringItem index="23" value="ANALISTA DE REDES Y SERVIDORES"/>
+            <StringItem index="24" value="ANALISTA GIS"/>
+            <StringItem index="25" value="ANALISTA TELEMATICO"/>
+            <StringItem index="26" value="SOPORTE A USUARIO"/>
+            <StringItem index="27" value="GESTOR DE PROYECTOS TIC"/>
+            <StringItem index="28" value="ANALISTA DE SERVIDORES Y DATA CENTER"/>
+            <StringItem index="29" value="ANALISTA DE REDES Y COMUNICACIONES"/>
+            <StringItem index="30" value="ANALISTA SEGURIDAD TIC"/>
+            <StringItem index="31" value="ANALISTA SEGURIDAD TECNOLOGIA"/>
+            <StringItem index="32" value="ANALISTA BASE DE DATOS"/>
+            <StringItem index="33" value="ANALISTA BASE SITUACIONAL"/>
+            <StringItem index="34" value="ANALISTA DE SISTEMAS"/>
+            <StringItem index="35" value="ANALISTA GEOLOCALIZACION"/>
+            <StringItem index="36" value="ESTADISTICO"/>
+            <StringItem index="37" value="ANALISTA DE DATOS"/>
+            <StringItem index="38" value="OPERADOR DEL 911"/>
+            <StringItem index="39" value="ANALISTA RADIOCOMUNICACION"/>
+            <StringItem index="40" value="SOPORTE TECNICO DE RADIOCOMUNICACION"/>
+            <StringItem index="41" value="SOPORTE RADIOCOMUNICACION"/>
+            <StringItem index="42" value="TECNICO EN COMUNICACIONES"/>
+            <StringItem index="43" value="ANALISTA VIDEO VIGILANCIA"/>
+            <StringItem index="44" value="SOPORTE TECNICO VIDEO VIGILANCIA"/>
+            <StringItem index="45" value="ELECTRICISTA"/>
+            <StringItem index="46" value="ANALISTA ELECTRICO"/>
+            <StringItem index="47" value="OFICIAL DE ENTRAMIENTO"/>
+            <StringItem index="48" value="ASESORA DE COMUNICACIONES"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="filtro_operativoItemStateChanged"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Filtro Estrat&#xe9;gico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Filtro T&#xe1;ctico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Filtro Operativo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cargo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sueldo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_nombre">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_cargo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sueldo">
+    </Component>
+    <Component class="java.awt.Button" name="btn_estado">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="label" type="java.lang.String" value="En proceso o Inactiva"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_estadoMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_estadoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_sueldo2">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Retribuci&#xf3;n por tarea realizada con &#xe9;xito"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sueldo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comisi&#xf3;n 5%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_comision">
+    </Component>
+  </SubComponents>
+</Form>
